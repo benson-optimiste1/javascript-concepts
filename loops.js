@@ -12,13 +12,13 @@ const students = [
 
 // 1.for loop
 for (let i =0; i < students.length; i= i+1){
-console.log(students[i])
+// console.log(students[i])
 }
 
 2. //for each
-// students.forEach((item, index) => {
-//     // console.log(index, '->', item)
-// })
+students.forEach((item, index) => {
+    console.log(index, '->', item)
+})
 
 // 3. for map
 
