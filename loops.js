@@ -16,15 +16,15 @@ for (let i =0; i < students.length; i= i+1){
 }
 
 2. //for each
-students.forEach((item, index) => {
-    console.log(index, '->', item)
-})
+// students.forEach((item, index) => {
+//     console.log(index, '->', item)
+// })
 
 // 3. for map
 
-// const newArray = students.map((item, index) =>{
-//     console.log(index, '->', item)
-//     item.age = index + 10 
-//     // return item
-// })
+const newArray = students.map((item, index) =>{
+    console.log(index, '->', item)
+    item.age = index + 10 
+    return item
+})
 
